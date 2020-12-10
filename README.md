@@ -30,7 +30,7 @@ Slack Push Process. Slack 채팅 프로그램을 활용한 메시징 푸쉬 서�
 }
 </pre>
 </code>
-4. __https://api.slack.com/__ 접속하여 Messaging API를 만들어서 API Token 발급 후 index.js에 options -> Authorization -> setting 변경
+4. https://api.slack.com/ 접속하여 Messaging API를 만들어서 API Token 발급 후 index.js에 options -> Authorization -> setting 변경
 <pre>
 <code>
 var options = {
