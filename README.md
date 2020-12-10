@@ -18,24 +18,24 @@ Slack 채팅 프로그램을 활용한 메시징 푸쉬 서비스
 3. schema에 slack.js 파일 확인 후 mongoDB 스키마 구조 확인
 <pre>
 <code>
-  {
-    channel:"channel-TEST"
-    text:"TEST 메시징 확인. 알람 확인"
-    sendFlag:"N"
-  }
+{
+  channel:"channel-TEST"
+  text:"TEST 메시징 확인. 알람 확인"
+  sendFlag:"N"
+}
 </pre>
 </code>
 4. __https://api.slack.com/__ 접속하여 Messaging API를 만들어서 API Token 발급 후 index.js에 options -> Authorization -> setting 변경
 <pre>
 <code>
-  var options = {
-    'method': 'POST',
-    'url': 'https://slack.com/api/chat.postMessage',
-    'headers': {
-      'Authorization': 'Bearer xxxx-xxxxxxxxxxx-xxxxxx-xxxxxxxxxxxxxxxxxxxxxxx',
-      'Content-Type': 'application/json'
-    },
-    body: ''
-  };
+var options = {
+  'method': 'POST',
+  'url': 'https://slack.com/api/chat.postMessage',
+  'headers': {
+    'Authorization': 'Bearer xxxx-xxxxxxxxxxx-xxxxxx-xxxxxxxxxxxxxxxxxxxxxxx',
+    'Content-Type': 'application/json'
+  },
+  body: ''
+};
 </pre>
 </code>
