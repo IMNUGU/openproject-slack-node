@@ -1,8 +1,8 @@
 # openproject-slack-node
-Slack Push Process. 문자메시징을 DB에 저장하여 Slack 서비스로 전송하여 Slack으로 문자를 받음
+Slack Push Process. Slack 채팅 프로그램을 활용한 메시징 푸쉬 서비스
 
-
-Slack 채팅 프로그램을 활용한 메시징 푸쉬 서비스
+호서대학교 
+-------------------------------------
 
 ### 개요
 무료 채팅 프로그램인 Slack을 활용한 알람 서비스 제작
